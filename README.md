@@ -42,6 +42,4 @@ Bu projenin temel amacı:
 * Teknolojiyi doğrudan üretim sahasına (tarlaya) indirmek.
 
 ---
-
-## 👤 Geliştirici
-**Kcn**
+Developed with 💖 by **Kcn**
