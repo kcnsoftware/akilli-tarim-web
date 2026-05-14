@@ -2,6 +2,8 @@
 
 **Akıllı Tarım**, bitki hastalıklarını yaprak fotoğrafları üzerinden saniyeler içinde teşhis edebilen, internet bağımsız (offline) çalışan ve kenar bilişim (edge computing) odaklı bir yapay zeka projesidir.
 
+🔗 **[Proje Tanıtım Sayfası ve Simülasyonu İçin Tıklayın](https://kcnsoftware.github.io/akilli-tarim-web/)**
+
 ---
 
 ## 🚀 Öne Çıkan Özellikler
