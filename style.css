@@ -1,0 +1,40 @@
+:root {
+    --neon-green: #52b788;
+    --dark-bg: #0b090a;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--dark-bg);
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(82, 183, 136, 0.2);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--neon-green);
+}
+
+.bg-secondary-dark {
+    background-color: #161a1d;
+}
+
+.text-success {
+    color: var(--neon-green) !important;
+}
+
+.btn-success {
+    background-color: var(--neon-green);
+    border: none;
+}
