@@ -1,57 +1,41 @@
-:root {
-    --primary-green: #2d6a4f;
-    --neon-green: #52b788;
-    --dark-main: #080a0c;
-    --dark-card: #161a1d;
-}
-
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: var(--dark-main);
-    color: #f8f9fa;
-    scroll-behavior: smooth;
-}
-
-.blur-bg {
-    background: rgba(8, 10, 12, 0.8);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(82, 183, 136, 0.1);
-}
-
-.hero-section {
-    min-height: 100 vh;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
-                url('https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=1920&q=80');
-    background-size: cover;
-    background-position: center;
-}
-
-.bg-dark-lighter {
-    background-color: #0e1113;
-}
-
-.shadow-custom {
-    box-shadow: 0 10px 30px rgba(82, 183, 136, 0.1);
-}
-
-.step-item {
-    border-left: 3px solid var(--neon-green);
-    padding-left: 20px;
-    margin-bottom: 30px;
-}
-
-.font-monospace {
-    font-family: 'Courier New', Courier, monospace !important;
-}
-
-.btn-success {
-    background-color: var(--neon-green);
-    border-color: var(--neon-green);
-    color: var(--dark-main);
-    font-weight: bold;
-}
-
-.btn-success:hover {
-    background-color: var(--primary-green);
-    transform: scale(1.05);
-}
+       body {
+            font-family: 'Space Grotesk', sans-serif;
+            background: #050505;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 24px;
+        }
+        .neon-text {
+            text-shadow: 0 0 10px rgba(34, 197, 94, 0.5);
+        }
+        .neon-border {
+            box-shadow: 0 0 20px rgba(34, 197, 94, 0.2);
+            border: 1px solid rgba(34, 197, 94, 0.4);
+        }
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        .scan-line {
+            width: 100%;
+            height: 2px;
+            background: rgba(34, 197, 94, 0.8);
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation: scan 3s linear infinite;
+            box-shadow: 0 0 15px #22c55e;
+        }
+        @keyframes scan {
+            0% { top: 0%; }
+            100% { top: 100%; }
+        }
